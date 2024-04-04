@@ -1,0 +1,27 @@
+{
+    "name": "tsmsogn/get_github_access_token",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tsmsogn",
+            "email": "tsmsogn@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.0",
+        "knplabs/github-api": "^3.14",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.8",
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "classmap": [
+            ""
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
