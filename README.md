@@ -1,4 +1,4 @@
-# Get a access token via GitHub app
+# Get a access token via GitHub App
 
 ## Installation
 
