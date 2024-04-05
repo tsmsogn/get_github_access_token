@@ -11,14 +11,14 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 #[AsCommand(
     name: 'app:github',
-    description: 'Get a access token via GitHub app.',
+    description: 'Get a access token via GitHub App.',
 )]
 class GithubAccessTokenCommand extends Command
 {
     protected function configure(): void
     {
         $this
-            ->setHelp('This command allows you to get a access token via GitHub app using app ID, private key, and installation ID.')
+            ->setHelp('This command allows you to get a access token via GitHub App using app ID, private key, and installation ID.')
             ->addArgument('appId', InputArgument::REQUIRED, 'The GitHub App ID.')
             ->addArgument('privateKeyPath', InputArgument::REQUIRED, 'Path to the GitHub App private key.')
             ->addArgument('installationId', InputArgument::REQUIRED, 'The installation ID.');
